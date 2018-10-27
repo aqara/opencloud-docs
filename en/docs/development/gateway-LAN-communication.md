@@ -110,7 +110,7 @@ Door and window sensors reported the open/close status of windows, the format is
    "cmd":"report",
    "model":"sensor_magnet.aq2",
    "sid":"xxxxxxxx",
-   "params":[{"window_status":"open"}] 
+   "data":{"window_status":"open"} 
 }
 ```
 
@@ -141,7 +141,7 @@ The heartbeat of sub-devices are sent via **multicast** to (**IP: 224.0.0.50 Por
    "cmd":"heartbeat",
    "model":"sensor_magnet.aq2",
    "sid":"xxxxxxxx",
-   "params":[{"window_status":"open"}]
+   "data": {"window_status":"open"}
 }
 ```
 
