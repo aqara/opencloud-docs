@@ -966,7 +966,7 @@ JSON报文的基本格式：
 
 | 属性              | 说明                                       |
 | --------------- | ---------------------------------------- |
-| cube_status     | flip90/flip180/move/tap_twice/shake_air/swing/alert/free_fall/rotate（翻转90度/翻转180度/平移/双击/摇一摇/用力甩/静止一段时间后被触动/自由下落） |
+| cube_status     | flip90/flip180/move/tap_twice/shake_air/swing/alert/free_fall/rotate（翻转90度/翻转180度/平移/双击/摇一摇/用力甩/静止一段时间后被触动/自由下落/旋转） |
 | rotate_degree   | 旋转的角度，单位是度（°） ，取值为正数，表示是顺时针转，负数为逆时针转。    |
 | detect_time     | 旋转采样的时间长度，单位毫秒（ms）                       |
 | battery_voltage | 纽扣式电池电压值，单位mv，范围0~3300mv，一般情况下，小于2800mv时表示低电量。 |
