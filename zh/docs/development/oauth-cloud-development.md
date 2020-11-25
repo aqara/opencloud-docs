@@ -223,7 +223,7 @@ Sign生成说明：
 查询设备列表，调用方法如下：
 
 - 请求URL：https://aiot-open-3rd.aqara.cn/3rd/v1.0/open/device/query
-- 请求方式： HTTP POST （application/json）
+- 请求方式： HTTP GET （application/json）
 - 请求header示例
 
 | Key          | 描述                                                         |
